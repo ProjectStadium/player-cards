@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "stadium magenta",
+    "hex": "#E61988"
+  },
+  {
+    "id": 2,
+    "name": "stadium purple",
+    "hex": "#9819E6"
+  },
+  {
+    "id": 3,
+    "name": "stadium indigo",
+    "hex": "#4E19E6"
+  },
+  {
+    "id": 4,
+    "name": "stadium blue",
+    "hex": "#1990E6"
+  },
+  {
+    "id": 5,
+    "name": "stadium sky",
+    "hex": "#19DAE6"
+  },
+  {
+    "id": 6,
+    "name": "stadium sea",
+    "hex": "#19E6B5"
+  },
+  {
+    "id": 7,
+    "name": "stadium volt",
+    "hex": "#19E62D"
+  },
+  {
+    "id": 8,
+    "name": "stadium lime",
+    "hex": "#B1E619"
+  },
+  {
+    "id": 9,
+    "name": "stadium electric",
+    "hex": "#E6DE19"
+  },
+  {
+    "id": 10,
+    "name": "stadium sun",
+    "hex": "#E67B19"
+  },
+  {
+    "id": 11,
+    "name": "stadium fire",
+    "hex": "#E61919"
+  },
+  {
+    "id": 12,
+    "name": "stadium cloud",
+    "hex": "#D9D9D9"
+  },
+  {
+    "id": 13,
+    "name": "stadium steel",
+    "hex": "#9F9F9F"
+  },
+  {
+    "id": 14,
+    "name": "stadium charcoal",
+    "hex": "#4F4F4F"
+  },
+  {
+    "id": 15,
+    "name": "stadium noir",
+    "hex": "#000000"
+  },
+  {
+    "id": 16,
+    "name": "stadium white",
+    "hex": "#ffffff"
+  }
+]

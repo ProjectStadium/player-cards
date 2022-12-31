@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "name": "noFrame",
+    "img": "",
+    "thumbnail": "",
+    "price": 0
+  },
+  {
+    "id": 1,
+    "name": "delighted",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545531/Player%20Builder/Frames/Delighted_Frame_jh6men.png",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545717/Player%20Builder/Frames/thumbnails/Delighted_Framethumbs_yc8yqm.png",
+    "price": 0.01
+  },
+  {
+    "id": 2,
+    "name": "battle",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545531/Player%20Builder/Frames/Battle_Frame_wquaq9.png",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545717/Player%20Builder/Frames/thumbnails/Battle_Framethumbs_vuj35p.png",
+    "price": 0.03
+  },
+  {
+    "id": 3,
+    "name": "relished",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545531/Player%20Builder/Frames/Relished_Frame_bjqdw2.png",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545717/Player%20Builder/Frames/thumbnails/Relished_Framethumbs_igdhjf.png",
+    "price": 0.07
+  },
+  {
+    "id": 4,
+    "name": "exaulted",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545531/Player%20Builder/Frames/Exaluted_Frame_mh6s6t.png",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545717/Player%20Builder/Frames/thumbnails/Exaluted_Framethumbs_g7uiud.png",
+    "price": 0.1
+  }
+]

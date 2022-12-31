@@ -1,0 +1,57 @@
+[
+  {
+    "id": 0,
+    "name": "NONE",
+    "type": "free",
+    "price": 0
+  },
+  {
+    "id": 1,
+    "name": "PLAYER",
+    "type": "free",
+    "price": 0
+  },
+  {
+    "id": 2,
+    "name": "ACOLYTE",
+    "type": "free",
+    "price": 0
+  },
+  {
+    "id": 3,
+    "name": "DAY ONE",
+    "type": "unlockable",
+    "when": "accessCard",
+    "price": 0
+  },
+  {
+    "id": 4,
+    "name": "SLAYER",
+    "type": "paid",
+    "price": 0.02
+  },
+  {
+    "id": 5,
+    "name": "DYNAMO",
+    "type": "paid",
+    "price": 0.02
+  },
+  {
+    "id": 6,
+    "name": "THE REAPER",
+    "type": "paid",
+    "price": 0.02
+  },
+  {
+    "id": 7,
+    "name": "PUBLIC ENEMY",
+    "type": "paid",
+    "price": 0.02
+  },
+  {
+    "id": 8,
+    "name": "HEAVY HVNDED",
+    "type": "paid",
+    "price": 0.02
+  }
+]

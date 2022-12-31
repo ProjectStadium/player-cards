@@ -1,0 +1,182 @@
+[
+  {
+    "id": 0,
+    "name": "the void",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545858/Player%20Builder/icons/Free/voidHVNDbig_ktpjj2.png",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545908/Player%20Builder/icons/Thumbnails/free/voidHVNDthumbs_pghaps.png",
+    "type": "free",
+    "price": 0,
+    "artist": "blvkhvnd"
+  },
+  {
+    "id": 1,
+    "name": "the wall",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545858/Player%20Builder/icons/Free/wallHVNDbig_srbk9s.png",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545909/Player%20Builder/icons/Thumbnails/free/wallHVNDthumbs_w85zdp.png",
+    "type": "free",
+    "price": 0,
+    "artist": "blvkhvnd"
+  },
+  {
+    "id": 2,
+    "name": "death's hvnd",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545857/Player%20Builder/icons/Free/deathHVNDbig_qdekfc.png",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545908/Player%20Builder/icons/Thumbnails/free/deathHVNDthumbs_rjuwjp.png",
+    "type": "free",
+    "price": 0,
+    "artist": "blvkhvnd"
+  },
+  {
+    "id": 3,
+    "name": "crossguard",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545857/Player%20Builder/icons/Free/crossing-guardbig_qjmvrx.png",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545908/Player%20Builder/icons/Thumbnails/free/crossing-guardthumbs_dwdoya.png",
+    "type": "free",
+    "price": 0,
+    "artist": "shields"
+  },
+  {
+    "id": 4,
+    "name": "a rose",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545856/Player%20Builder/icons/Free/rosebig_ekt0if.png",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545908/Player%20Builder/icons/Thumbnails/free/rosethumbs_ag3xa9.png",
+    "type": "free",
+    "price": 0,
+    "artist": "shields"
+  },
+  {
+    "id": 5,
+    "name": "the orb",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545856/Player%20Builder/icons/Free/orbbig_yqjvlj.png",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545908/Player%20Builder/icons/Thumbnails/free/orbthumbs_eyxnlk.png",
+    "type": "free",
+    "price": 0,
+    "artist": "shields"
+  },
+  {
+    "id": 6,
+    "name": "the eye",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545857/Player%20Builder/icons/Free/eyebig_elgper.png",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545908/Player%20Builder/icons/Thumbnails/free/eyethumbs_rntofe.png",
+    "type": "free",
+    "price": 0,
+    "artist": "shields"
+  },
+  {
+    "id": 7,
+    "name": "diamond",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545857/Player%20Builder/icons/Free/Group_557big_vtvxws.png",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545908/Player%20Builder/icons/Thumbnails/free/diamondthumbs_zqy8xa.png",
+    "type": "free",
+    "price": 0,
+    "artist": "shields"
+  },
+  {
+    "id": 8,
+    "name": "scales",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545857/Player%20Builder/icons/Free/justicebig_ypekjt.png",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545908/Player%20Builder/icons/Thumbnails/free/justicethumbs_nlrm2v.png",
+    "type": "free",
+    "price": 0,
+    "artist": "shields"
+  },
+  {
+    "id": 9,
+    "name": "necklace",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545856/Player%20Builder/icons/Free/necklacebig_kpi0cd.png",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545908/Player%20Builder/icons/Thumbnails/free/necklacethumbs_vzcl7u.png",
+    "type": "free",
+    "price": 0,
+    "artist": "shields"
+  },
+  {
+    "id": 10,
+    "name": "knight",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545826/Player%20Builder/icons/Paid/knightbig_hiuwm9.png",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545893/Player%20Builder/icons/Thumbnails/paid/knightthumbs_dcht7l.png",
+    "type": "paid",
+    "price": 0.02,
+    "artist": "shields"
+  },
+  {
+    "id": 11,
+    "name": "wash my hvnds",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545826/Player%20Builder/icons/Paid/washMyHVNDSbig_vy0q0r.png",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545893/Player%20Builder/icons/Thumbnails/paid/washMyHVNDSthumbs_d6c1lj.png",
+    "type": "paid",
+    "price": 0.02,
+    "artist": "atm"
+  },
+  {
+    "id": 12,
+    "name": "zorb mage",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545828/Player%20Builder/icons/Paid/zorbHVNDbig_fcba0s.png",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545893/Player%20Builder/icons/Thumbnails/paid/zorbHVNDthumbs_wtctcx.png",
+    "type": "paid",
+    "price": 0.02,
+    "artist": "atm"
+  },
+  {
+    "id": 13,
+    "name": "acolyte's pledge",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545827/Player%20Builder/icons/Paid/acolyePledgebig_zbiage.png",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545893/Player%20Builder/icons/Thumbnails/paid/acolyePledgethumbs_sde0mc.png",
+    "type": "paid",
+    "price": 0.02,
+    "artist": "atm"
+  },
+  {
+    "id": 14,
+    "name": "terminator",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545826/Player%20Builder/icons/Paid/terminatorbig_ciknwr.png",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545893/Player%20Builder/icons/Thumbnails/paid/terminatorthumbs_rtelpv.png",
+    "type": "paid",
+    "price": 0.02,
+    "artist": "atm"
+  },
+  {
+    "id": 15,
+    "name": "masked",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545827/Player%20Builder/icons/Paid/maskedbig_wf4ugl.png",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545893/Player%20Builder/icons/Thumbnails/paid/maskedthumbs_qqhwyo.png",
+    "type": "paid",
+    "price": 0.02,
+    "artist": "atm"
+  },
+  {
+    "id": 16,
+    "name": "headshot",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545827/Player%20Builder/icons/Paid/headshotbig_nihotl.png",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545893/Player%20Builder/icons/Thumbnails/paid/headshotthumbs_fhd1uq.png",
+    "type": "paid",
+    "price": 0.02,
+    "artist": "atm"
+  },
+  {
+    "id": 17,
+    "name": "hvnd mountain",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545826/Player%20Builder/icons/Paid/hvndMountbig_wc9qeg.png",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545893/Player%20Builder/icons/Thumbnails/paid/hvndMountthumbs_nhrork.png",
+    "type": "paid",
+    "price": 0.02,
+    "artist": "atm"
+  },
+  {
+    "id": 18,
+    "name": "the controller",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545828/Player%20Builder/icons/Paid/controllerbig_v5wifi.png",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545893/Player%20Builder/icons/Thumbnails/paid/controllerthumbs_qrufit.png",
+    "type": "paid",
+    "price": 0.02,
+    "artist": "atm"
+  },
+  {
+    "id": 19,
+    "name": "hvnd eternal",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545826/Player%20Builder/icons/Paid/eternalHVNDbig_olmmoj.png",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545893/Player%20Builder/icons/Thumbnails/paid/eternalHVNDthumbs_ofsyws.png",
+    "type": "paid",
+    "price": 0.02,
+    "artist": "atm"
+  }
+]

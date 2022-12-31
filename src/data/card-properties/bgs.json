@@ -1,0 +1,94 @@
+[
+  {
+    "id": 0,
+    "name": "stadium",
+    "img": "",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545371/Player%20Builder/backgrounds/free/thumbnails/stadium_basebg_thumbs_ple9v7.png",
+    "type": "free",
+    "price": 0,
+    "artist": "Stadium Team",
+    "darkBg": false
+  },
+  {
+    "id": 1,
+    "name": "stadium bg",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667174870/Player%20Builder/backgrounds/free/stadiumBase_bg_galutl.jpg",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545371/Player%20Builder/backgrounds/free/thumbnails/theSaucerbg_thumbs_qftug0.png",
+    "type": "free",
+    "price": 0,
+    "artist": "Stadium Team",
+    "darkBg": false
+  },
+  {
+    "id": 2,
+    "name": "pledge",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545390/Player%20Builder/backgrounds/free/acolytesPledge_bq2yke.png",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545371/Player%20Builder/backgrounds/free/thumbnails/acolytesPledgebg_thumbs_avybvc.png",
+    "type": "free",
+    "price": 0,
+    "artist": "atm",
+    "darkBg": true
+  },
+  {
+    "id": 3,
+    "name": "reaper",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667174871/Player%20Builder/backgrounds/free/reaper_bg_bwfyl2.jpg",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545371/Player%20Builder/backgrounds/free/thumbnails/reaper_bgbg_thumbs_iwrtfn.png",
+    "type": "unlock",
+    "when": "accessCard",
+    "price": 0,
+    "artist": "atm",
+    "darkBg": true
+  },
+  {
+    "id": 4,
+    "name": "wizard",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545444/Player%20Builder/backgrounds/free/theWizard_pe0wtv.jpg",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545371/Player%20Builder/backgrounds/free/thumbnails/theWizardbg_thumbs_qcstuh.png",
+    "type": "unlock",
+    "when": "accessCard",
+    "price": 0,
+    "artist": "atm",
+    "darkBg": true
+  },
+  {
+    "id": 5,
+    "name": "gaia's sinew",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545471/Player%20Builder/backgrounds/paid/gaiasSinew_lxzgys.jpg",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545471/Player%20Builder/backgrounds/paid/gaiasSinew_lxzgys.jpg",
+    "type": "paid",
+    "price": 0.04,
+    "artist": "atm",
+    "darkBg": true
+  },
+  {
+    "id": 6,
+    "name": "black morrow",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545471/Player%20Builder/backgrounds/paid/blackMarrow_xs6glq.jpg",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545471/Player%20Builder/backgrounds/paid/blackMarrow_xs6glq.jpg",
+    "type": "paid",
+    "price": 0.04,
+    "artist": "atm",
+    "darkBg": true
+  },
+  {
+    "id": 7,
+    "name": "hollow sunset",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545470/Player%20Builder/backgrounds/paid/hollowSunset_euuuep.jpg",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667545470/Player%20Builder/backgrounds/paid/hollowSunset_euuuep.jpg",
+    "type": "paid",
+    "price": 0.04,
+    "artist": "atm",
+    "darkBg": true
+  },
+  {
+    "id": 8,
+    "name": "hall of giants",
+    "img": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667174869/Player%20Builder/backgrounds/paid/hallOfGiants_bg_ey1uod.jpg",
+    "thumbnail": "https://res.cloudinary.com/dxpz5d4bj/image/upload/v1667174869/Player%20Builder/backgrounds/paid/hallOfGiants_bg_ey1uod.jpg",
+    "type": "paid",
+    "price": 0.04,
+    "artist": "atm + sirsu",
+    "darkBg": true
+  }
+]

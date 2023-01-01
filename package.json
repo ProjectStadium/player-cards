@@ -6,6 +6,12 @@
   },
   "description": "",
   "main": "dist/index.js",
+  "files": [
+    "dist/*",
+    "src/*",
+    "package.json",
+    "tsconfig.json"
+  ],
   "scripts": {
     "serve": "nodemon -x ts-node -e ts,tsx src/server",
     "build": "tsc",

@@ -1,4 +1,5 @@
 import path from 'path'
+
 import type Card from './Card'
 import { Canvas, Image, loadImage } from 'canvas'
 import TextToSVG from 'text-to-svg'
@@ -16,7 +17,7 @@ const imagesLoaded: { [key: string]: string } = {}
  * A simple modal and renderer for card data
  */
 export default class CardRenderer {
-  static fontRoot: string
+  fontRoot?: string
   playerName: string
   color: string
   icon: string
@@ -45,13 +46,14 @@ export default class CardRenderer {
     this.title = props.titles?.name || ''
     this.darkBg = !!props.bgs.darkBg
     this.canvas = new Canvas(this.width, this.height)
+    this.fontRoot = undefined
 
     if (this.title === 'NONE') {
       this.title = ''
     }
   }
 
-  static setFontRoot = (fontRoot: string) => {
+  setFontRoot = (fontRoot: string) => {
     this.fontRoot = fontRoot
   }
 
@@ -70,10 +72,12 @@ export default class CardRenderer {
   }
 
   getFont = async (fontFile: string) => {
+    console.log("loading font: ", fontFile, this.fontRoot);
+    if(typeof this.fontRoot == "undefined") throw new Error("No font root is defined!");
     if (!fontsLoaded[fontFile]) {
       fontsLoaded[fontFile] = new Promise(async (resolve, reject) => {
         TextToSVG.load(
-          path.join(CardRenderer.fontRoot, fontFile),
+          path.join(this.fontRoot as string, fontFile),
           (err, textToSvg) => {
             if (err) return reject(err)
             return resolve(textToSvg!)
@@ -86,6 +90,7 @@ export default class CardRenderer {
   }
 
   renderPlayerName = async () => {
+    if(typeof this.playerName == "undefined") throw new Error("(this.bgName) - No background name was set.");
     const svg = await this.getFont('Tungsten-Bold.ttf')
     return svg.getD(this.playerName.toUpperCase(), {
       fontSize: 38,
@@ -99,6 +104,8 @@ export default class CardRenderer {
   }
 
   renderArtistName = async () => {
+    this.bgArtist = "ATM";
+    if(typeof this.bgArtist == "undefined") throw new Error("(this.bgName) - No background name was set.");
     const svg = await this.getFont('jb-r.ttf')
     return svg.getD(this.bgArtist.toUpperCase(), {
       fontSize: 10,
@@ -112,7 +119,10 @@ export default class CardRenderer {
   }
 
   renderBgName = async () => {
+    this.bgName = "stadium";
+    if(typeof this.bgName == "undefined") throw new Error("(this.bgName) - No background name was set.");
     const svg = await this.getFont('jb-r.ttf')
+    console.log("bg name: ", this.bgName);
     return svg.getD(this.bgName.toUpperCase(), {
       fontSize: 10,
       x: CARD_WIDTH / 2,
@@ -125,6 +135,7 @@ export default class CardRenderer {
   }
 
   renderTitle = async () => {
+    if(typeof this.title == "undefined") throw new Error("(this.bgName) - No background name was set.");
     const svg = await this.getFont('jb-im.ttf')
     return svg.getD(this.title.toUpperCase(), {
       fontSize: 18,

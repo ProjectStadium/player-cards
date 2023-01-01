@@ -34,7 +34,7 @@ export default class Card {
   getPrice = () => {
     // @TODO: Fix this logic of how prices are summed using 256-bit integers
     return Object.entries(this.cardProperties)
-      .reduce((sum, [, property]) => sum + (+property.price || 0), 0)
+      .reduce((sum, [, property]) => sum + (+property ? property.price : 0), 0)
       .toPrecision(2)
   }
 

@@ -1,3 +1,12 @@
+import CardRenderer from "src/CardRenderer"
+import { renderTemplateString } from "../cardSvgTemplate"
+
+import titles from './card-properties/titles.json'
+import bgs from './card-properties/bgs.json'
+import colors from './card-properties/colors.json'
+import frames from './card-properties/frames.json'
+import icons from './card-properties/icons.json'
+
 export type CardProperty = {
   id: number | string
   name: string
@@ -11,11 +20,15 @@ export type CardProperty = {
 }
 
 export default {
+  renderTemplateString: (renderer: CardRenderer): Promise<string> => {
+    return renderTemplateString(renderer);
+  },
+
   cardProperties: {
-    bgs: require('./card-properties/bgs.json') as CardProperty[],
-    colors: require('./card-properties/colors.json') as CardProperty[],
-    frames: require('./card-properties/frames.json') as CardProperty[],
-    icons: require('./card-properties/icons.json') as CardProperty[],
-    titles: require('./card-properties/titles.json') as CardProperty[],
+    bgs: bgs as CardProperty[],
+    colors: colors as CardProperty[],
+    frames: frames as CardProperty[],
+    icons: icons as CardProperty[],
+    titles: titles as CardProperty[],
   },
 }
